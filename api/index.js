@@ -1,5 +1,5 @@
 const languages = require("../data/languages");
-const words = require("../data/languages");
+const words = require("../data/words");
 
 function getCategories() {
   const categories = [];

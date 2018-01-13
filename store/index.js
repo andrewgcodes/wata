@@ -1,5 +1,7 @@
 import { Store } from "vuex";
-import { languages } from "../api";
+import { languages, getCategories } from "../api";
+
+const categories = getCategories();
 
 const mutations = {
   selectLanguage(state, selectedLanguage) {
@@ -10,11 +12,13 @@ const mutations = {
 const getters = {
   allLanguages: state => state.languages,
   getSelectedLanguage: state => state.selectedLanguage,
+  allCategories: state => state.categories,
 };
 
 const state = {
   languages,
   selectedLanguage: null,
+  categories,
 };
 
 const store = new Store({
