@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-content>
-      <h1>Wata</h1>
+      <app-header/>
         <v-container>
         <v-select
           v-bind:items="allLanguages"
@@ -9,6 +9,7 @@
           item-value="slug"
           v-model="language"
           label="Select language"
+          prepend-icon="language"
           autocomplete
         ></v-select>
         </v-container>
@@ -24,8 +25,12 @@
 
 <script>
 import { mapGetters, mapMutations } from "vuex";
+import AppHeader from "../components/appHeader.vue";
 
 export default {
+  components: {
+    AppHeader,
+  },
   data: () => ({
     language: null,
   }),

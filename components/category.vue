@@ -1,10 +1,6 @@
 <template>
   <v-card>
-    <v-card-title primary-title>
-      <h3 class="headline">{{ name }}</h3>
-    </v-card-title>
-    <v-card-text>
-      <v-container grid-list-xl>
+    <v-container grid-list-xl>
         <v-layout wrap>
           <word
             v-for="{ name, emoji, translations, category } in words"
@@ -16,8 +12,7 @@
           >
           </word>
         </v-layout>
-      </v-container>
-    </v-card-text>
+    </v-container>
   </v-card>
 </template>
 
@@ -47,4 +42,11 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+  .card {
+    margin-bottom: 1rem;
+  }
+</style>
+
 
