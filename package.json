@@ -9,7 +9,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "format": "prettier --write --trailing-comma es5 {api,data,plugins,store,test}/**/*.{js,vue} nuxt.config.js .eslintrc.js",
+    "format": "prettier --write --trailing-comma=es5 {api,data,plugins,store,test}/**/*.{js,vue} nuxt.config.js .eslintrc.js",
     "test": "ava"
   },
   "dependencies": {

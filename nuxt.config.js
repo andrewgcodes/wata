@@ -1,7 +1,3 @@
-const languages = require("./data/languages");
-
-const languagesRoutes = languages.map(({ slug }) => `/languages/${slug}`);
-
 module.exports = {
   head: {
     title: "Wata",
@@ -36,6 +32,6 @@ module.exports = {
     },
   },
   generate: {
-    routes: ["/", "/languages", ...languagesRoutes],
+    routes: ["/", "/languages"],
   },
 };

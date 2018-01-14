@@ -8,7 +8,7 @@
             :name="name"
             :category="category"
             :emoji="emoji"
-            :translations="translations"
+            :translation="getTranslation(translations)"
           >
           </word>
         </v-layout>
@@ -39,6 +39,11 @@ export default {
     ...mapGetters([
       'getSelectedLanguage',
     ]),
+  },
+  methods: {
+    getTranslation(translations) {
+      return Object.prototype.hasOwnProperty.call(translations, this.getSelectedLanguage) ? translations[this.getSelectedLanguage] : 'no translation';
+    }
   },
 };
 </script>

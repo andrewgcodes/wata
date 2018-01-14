@@ -3,8 +3,7 @@
     <v-dialog v-model="active" max-width="600px">
       <v-card>
         <v-card-title>
-          <span>{{ name }}</span>
-          <v-spacer></v-spacer>
+          <h3 class="headline mb-1">{{ translation }}</h3>
         </v-card-title>
         <v-card-text>
           <v-icon icon dark large>{{ emoji }}</v-icon>
@@ -38,6 +37,10 @@ export default {
     category: {
       type: String,
       required: true,
+    },
+    translation: {
+      type: String,
+      required: true
     }
   },
   data: () => ({
@@ -47,19 +50,18 @@ export default {
 </script>
 
 <style scoped>
-.card__actions {
+.card__actions, .card__title, .card__text {
   display: flex;
   justify-content: center;
+}
+
+.icon {
+  cursor: pointer;
 }
 
 @media(max-width: 600px) {
   .btn {
     font-size: 11px;
   }
-}
-
-
-.icon {
-  cursor: pointer;
 }
 </style>

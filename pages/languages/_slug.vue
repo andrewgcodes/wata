@@ -1,14 +1,19 @@
 <template>
+<div>
+  <div>
+     <v-chip v-for="{ name } in allCategories" color="yellow">{{ name }}</v-chip>
+  </div>
   <v-layout>
     <v-flex>
       <category
-        v-for="{name, words} in allCategories"
+        v-for="{ name, words } in allCategories"
         v-bind:key="name"
         :name="name"
         :words="words"
       />
     </v-flex>
   </v-layout>
+</div>
 </template>
 
 <script>
