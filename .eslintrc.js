@@ -12,6 +12,7 @@ module.exports = {
     "prettier-eslint": "off",
     "no-return-assign": "off",
     "no-param-reassign": "off",
+    "linebreak-style": "off",
   },
   globals: {},
 };

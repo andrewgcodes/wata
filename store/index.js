@@ -1,5 +1,5 @@
 import { Store } from "vuex";
-import { languages, getCategories } from "../api";
+import { languages, getCategories, getTranslatedWordCount } from "../api";
 
 const categories = getCategories();
 
@@ -13,6 +13,7 @@ const getters = {
   allLanguages: state => state.languages,
   getSelectedLanguage: state => state.selectedLanguage,
   allCategories: state => state.categories,
+  translatedWordCount: state => getTranslatedWordCount(state.selectedLanguage),
 };
 
 const state = {

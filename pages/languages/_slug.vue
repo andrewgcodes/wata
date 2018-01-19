@@ -1,18 +1,23 @@
 <template>
 <div>
-  <div>
-     <v-chip v-for="{ name } in allCategories" color="yellow">{{ name }}</v-chip>
+  <div v-if="translatedWordCount === 0">
+    <h2>No translated words</h2>
   </div>
-  <v-layout>
-    <v-flex>
-      <category
-        v-for="{ name, words } in allCategories"
-        v-bind:key="name"
-        :name="name"
-        :words="words"
-      />
-    </v-flex>
-  </v-layout>
+  <div v-else>
+    <div>
+      <v-chip v-for="{ name } in allCategories" :key="name" color="yellow">{{ name }}</v-chip>
+    </div>
+    <v-layout>
+      <v-flex>
+        <category
+          v-for="{ name, words } in allCategories"
+          v-bind:key="name"
+          :name="name"
+          :words="words"
+        />
+      </v-flex>
+    </v-layout>
+  </div>
 </div>
 </template>
 
@@ -30,6 +35,7 @@ export default {
   computed: {
     ...mapGetters([
       'allCategories',
+      'translatedWordCount',
     ]),
   },
 };
