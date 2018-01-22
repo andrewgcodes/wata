@@ -1,6 +1,9 @@
 const test = require("ava");
 const Joi = require("joi");
 const words = require("../data/words");
+const categories = require("../data/categories");
+
+const availableCategories = categories.map(({ name }) => name);
 
 const schema = Joi.array()
   .required()
@@ -10,7 +13,9 @@ const schema = Joi.array()
   .items(
     Joi.object().keys({
       name: Joi.string().required(),
-      category: Joi.string().required(),
+      category: Joi.string()
+        .required()
+        .valid(availableCategories),
       emoji: Joi.string().required(),
       translations: Joi.object().required(),
     })

@@ -1,16 +1,16 @@
 <template>
 <div>
-  <div v-if="translatedWordCount === 0">
-    <h2>No translated words</h2>
-  </div>
+  <no-translations v-if="translatedWordCount === 0" />
   <div v-else>
     <div>
-      <v-chip v-for="{ name } in allCategories" :key="name" color="yellow">{{ name }}</v-chip>
+      <v-btn :outline="!isSelected('all')" :color="isSelected('all') && 'yellow'">all</v-btn>
+      <v-btn v-for="{ name, icon } in availableCategories" :key="name" @click="selectCategory(name)" :outline="!isSelected(name)" :color="isSelected(name) && 'yellow'">{{ icon }} {{ name }}</v-btn>
     </div>
     <v-layout>
       <v-flex>
         <category
           v-for="{ name, words } in allCategories"
+          v-if="isSelected('all') || isSelected(name)"
           v-bind:key="name"
           :name="name"
           :words="words"
@@ -24,6 +24,7 @@
 <script>
 import { mapGetters } from "vuex";
 import Category from "../../components/category.vue";
+import NoTranslations from "../../components/noTranslations.vue";
 
 export default {
   validate ({ params: { slug } }) {
@@ -31,12 +32,37 @@ export default {
   },
   components: {
     Category,
+    NoTranslations,
+  },
+  data: () => ({
+    selectedCategories: ['all'],
+  }),
+  methods: {
+    selectCategory(name) {
+      if(this.isSelected(name)) {
+        this.selectedCategories = this.selectedCategories.filter(categoryName => categoryName !== name);
+      } else {
+        this.selectedCategories = this.selectedCategories.filter(categoryName => categoryName !== 'all');
+        this.selectedCategories.push(name);
+      }
+    },
+    isSelected(name) {
+      return this.selectedCategories.includes(name);
+    },
   },
   computed: {
     ...mapGetters([
       'allCategories',
+      'availableCategories',
       'translatedWordCount',
     ]),
+  },
+  watch: {
+    selectedCategories() {
+      if(this.selectedCategories.length === 0) {
+        this.selectedCategories.push('all');
+      }
+    },
   },
 };
 </script>

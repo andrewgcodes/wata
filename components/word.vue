@@ -3,22 +3,22 @@
     <v-dialog v-model="active" max-width="600px">
       <v-card>
         <v-card-title>
-          <h3 class="headline mb-1">{{ translation }}</h3>
+          <h2 class="headline mb-1">{{ translation }}</h2>
         </v-card-title>
         <v-card-text>
-          <v-icon icon dark large>{{ emoji }}</v-icon>
+          <v-icon class="selected-icon" icon dark large>{{ emoji }}</v-icon>
         </v-card-text>
         <v-card-actions>
-          <v-btn block color="primary">Copy translation</v-btn>
-          <v-btn block color="success">Copy emoji</v-btn>
-          <v-btn block color="error" @click.stop="active = false">Close</v-btn>
+          <v-btn block class="translation">Copy translation</v-btn>
+          <v-btn block color="emoji">Copy emoji</v-btn>
+          <v-btn block color="close" @click.stop="active = false" data-micron="bounce">Close</v-btn>
         </v-card-actions>
       </v-card>
     </v-dialog>
 
-  <v-flex xl1 lg1 md1 sm2 xs3>
-    <v-icon @click="active = true" dark large>{{ emoji }}</v-icon>
-  </v-flex>
+    <v-flex xl1 lg1 md1 sm2 xs3>
+      <v-icon @click="active = true" dark large>{{ emoji }}</v-icon>
+    </v-flex>
   </div>
 </template>
 
@@ -57,6 +57,28 @@ export default {
 
 .icon {
   cursor: pointer;
+}
+
+.selected-icon {
+  font-size: 5em;
+}
+
+.btn {
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(0,0,0,0.15) 0 7px 20px;
+}
+
+.translation {
+  background-image: linear-gradient(80deg, #00aeff, #3369e7);
+}
+
+.emoji {
+  background-image: linear-gradient(284deg, #1cc7d0, #2dde98);
+}
+
+.close {
+  background-image: linear-gradient(112deg, #ff4f81, #ff6c5f);
 }
 
 @media(max-width: 600px) {

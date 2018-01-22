@@ -2,17 +2,16 @@
   <v-app>
     <v-content>
       <app-header/>
-        <v-container>
+      <v-container>
         <v-select
           v-bind:items="allLanguages"
           item-text="name"
           item-value="slug"
           v-model="language"
           label="Select language"
-          prepend-icon="language"
           autocomplete
         ></v-select>
-        </v-container>
+      </v-container>
       <v-container>
         <nuxt />
       </v-container>
@@ -58,4 +57,3 @@ export default {
   }
 };
 </script>
-

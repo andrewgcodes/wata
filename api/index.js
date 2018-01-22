@@ -1,12 +1,13 @@
 const languages = require("../data/languages");
 const words = require("../data/words");
+const categories = require("../data/categories");
 
 function getCategories() {
-  const categories = [];
+  const allCategories = [];
   words.forEach(word => {
-    const category = categories.find(({ name }) => name === word.category);
+    const category = allCategories.find(({ name }) => name === word.category);
     if (!category) {
-      categories.push({
+      allCategories.push({
         name: word.category,
         words: [word],
       });
@@ -14,6 +15,10 @@ function getCategories() {
       category.words.push(word);
     }
   });
+  return allCategories;
+}
+
+function getAvailableCategories() {
   return categories;
 }
 
@@ -29,4 +34,10 @@ function getTranslatedWordCount(language) {
   );
 }
 
-export { languages, getCategories, getWordCount, getTranslatedWordCount };
+export {
+  languages,
+  getCategories,
+  getAvailableCategories,
+  getWordCount,
+  getTranslatedWordCount,
+};

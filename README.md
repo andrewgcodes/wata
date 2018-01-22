@@ -4,17 +4,32 @@
 
 ``` bash
 # install dependencies
-$ npm install # Or yarn install
+$ yarn
 
 # serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
+$ yarn develop
 
 # generate static project
-$ npm run generate
+$ yarn generate
+
+#run tests
+$ yarn test
+
+#format files
+$ yarn format
 ```
 
-For detailed explanation on how things work, check out the [Nuxt.js](https://github.com/nuxt/nuxt.js) and [Vuetify.js](https://vuetifyjs.com/) documentation.
+## Built With
+
+* [Vue](https://github.com/vuejs/vue)
+* [Nuxt.js](https://github.com/nuxt/nuxt.js)
+* [Vuex](https://github.com/vuejs/vuex)
+* [Vuetify](https://github.com/vuetifyjs/vuetify)
+* [AVA](https://github.com/avajs/ava)
+* [Joi](https://github.com/hapijs/joi)
+* [Prettier](https://github.com/prettier/prettier)
+* [ESLint](https://github.com/eslint/eslint)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
