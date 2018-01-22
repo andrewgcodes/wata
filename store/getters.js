@@ -1,8 +1,10 @@
+import { getTranslatedWordCount } from "../api";
+
 const getters = {
   allLanguages: state => state.languages,
   getSelectedLanguage: state => state.selectedLanguage,
   allCategories: state => state.categories,
-  translatedWordCount: state => state.translatedWordCount,
+  translatedWordCount: state => getTranslatedWordCount(state.selectedLanguage),
   availableCategories: state => state.availableCategories,
 };
 
