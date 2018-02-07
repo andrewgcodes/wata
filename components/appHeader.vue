@@ -6,15 +6,9 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "app-header"
-}
-</script>
-
 <style scoped>
 div {
-  background-image: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);
+  background-image: linear-gradient(135deg, #fccf31 10%, #f55555 100%);
   padding: 1rem;
 }
 
@@ -28,4 +22,3 @@ a {
   text-decoration: none;
 }
 </style>
-

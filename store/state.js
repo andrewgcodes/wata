@@ -1,8 +1,4 @@
-import {
-  languages,
-  getCategories,
-  getAvailableCategories,
-} from "../api";
+import { languages, getCategories, getAvailableCategories } from "../api";
 
 const categories = getCategories();
 const availableCategories = getAvailableCategories();

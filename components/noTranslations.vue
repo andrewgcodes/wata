@@ -19,9 +19,10 @@ export default {
 </script>
 
 <style scoped>
-.card__actions, .card__title, .card__text {
+.card__actions,
+.card__title,
+.card__text {
   display: flex;
   justify-content: center;
 }
 </style>
-

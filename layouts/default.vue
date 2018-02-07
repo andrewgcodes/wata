@@ -8,7 +8,7 @@
           item-text="name"
           item-value="slug"
           v-model="language"
-          label="Select language"
+          placeholder="Select language"
           autocomplete
         ></v-select>
       </v-container>
@@ -16,19 +16,19 @@
         <nuxt />
       </v-container>
     </v-content>
-    <v-footer>
-      <span>&copy; 2017</span>
-    </v-footer>
+    <app-footer />
   </v-app>
 </template>
 
 <script>
 import { mapGetters, mapMutations } from "vuex";
 import AppHeader from "../components/appHeader.vue";
+import AppFooter from "../components/appFooter.vue";
 
 export default {
   components: {
     AppHeader,
+    AppFooter,
   },
   data: () => ({
     language: null,
@@ -37,14 +37,10 @@ export default {
     this.language = this.routeLanguage;
   },
   methods: {
-    ...mapMutations([
-      'selectLanguage',
-    ]),
+    ...mapMutations(["selectLanguage"]),
   },
   computed: {
-    ...mapGetters([
-      'allLanguages',
-    ]),
+    ...mapGetters(["allLanguages"]),
     routeLanguage() {
       return this.$route.params.slug || null;
     },
@@ -52,8 +48,12 @@ export default {
   watch: {
     language(newLanguage) {
       this.selectLanguage(newLanguage);
-      this.$router.push({ path: `/languages/${newLanguage}` })
-    }
-  }
+      this.$router.push({ path: `/languages/${newLanguage}` });
+    },
+  },
 };
 </script>
+
+<style scoped>
+
+</style>

@@ -10,7 +10,7 @@
         </v-card-text>
         <v-card-actions>
           <v-btn block class="translation">Copy translation</v-btn>
-          <v-btn block color="emoji">Copy emoji</v-btn>
+          <v-btn block color="emoji" v-clipboard:copy="emoji">Copy emoji</v-btn>
           <v-btn block color="close" @click.stop="active = false" data-micron="bounce">Close</v-btn>
         </v-card-actions>
       </v-card>
@@ -24,11 +24,11 @@
 
 <script>
 export default {
-  name: 'word',
+  name: "word",
   props: {
     name: {
       type: String,
-      required: true
+      required: true,
     },
     emoji: {
       type: String,
@@ -40,17 +40,19 @@ export default {
     },
     translation: {
       type: String,
-      required: true
-    }
+      required: true,
+    },
   },
   data: () => ({
-    active: false
+    active: false,
   }),
 };
 </script>
 
 <style scoped>
-.card__actions, .card__title, .card__text {
+.card__actions,
+.card__title,
+.card__text {
   display: flex;
   justify-content: center;
 }
@@ -60,13 +62,13 @@ export default {
 }
 
 .selected-icon {
-  font-size: 5em;
+  font-size: 3.5em;
 }
 
 .btn {
   color: #fff;
   border-radius: 5px;
-  box-shadow: rgba(0,0,0,0.15) 0 7px 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 7px 20px;
 }
 
 .translation {
@@ -81,9 +83,9 @@ export default {
   background-image: linear-gradient(112deg, #ff4f81, #ff6c5f);
 }
 
-@media(max-width: 600px) {
+@media (max-width: 600px) {
   .btn {
-    font-size: 11px;
+    font-size: 10px;
   }
 }
 </style>
