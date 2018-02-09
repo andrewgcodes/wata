@@ -11,12 +11,30 @@
           placeholder="Select language"
           autocomplete
         ></v-select>
+        <div class="text-xs-center">
+          <nuxt-link to="/languages">
+            <v-btn round dark large>⚡️ Browse languages</v-btn>
+          </nuxt-link>
+        </div>
       </v-container>
       <v-container>
         <nuxt />
       </v-container>
     </v-content>
     <app-footer />
+    <v-btn
+      fab
+      dark
+      fixed
+      bottom
+      right
+      color="red"
+      v-scroll="onScroll"
+      v-show="fab"
+      v-scroll-to="'#app'"
+    >
+      <v-icon>keyboard_arrow_up</v-icon>
+    </v-btn>
   </v-app>
 </template>
 
@@ -32,12 +50,23 @@ export default {
   },
   data: () => ({
     language: null,
+    fab: false,
   }),
   created() {
     this.language = this.routeLanguage;
   },
+  mounted() {
+    this.onScroll();
+  },
   methods: {
     ...mapMutations(["selectLanguage"]),
+    onScroll() {
+      if (typeof window === "undefined") {
+        return;
+      }
+      const top = window.pageYOffset || document.documentElement.offsetTop || 0;
+      this.fab = top > 300;
+    },
   },
   computed: {
     ...mapGetters(["allLanguages"]),
@@ -55,5 +84,11 @@ export default {
 </script>
 
 <style scoped>
+a {
+  text-decoration: none !important;
+}
 
+.btn {
+  background: linear-gradient(135deg, #6253e1, #04befe) !important;
+}
 </style>

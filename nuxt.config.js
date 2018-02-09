@@ -18,11 +18,19 @@ module.exports = {
       },
     ],
   },
-  plugins: ["~/plugins/vuetify.js", "~/plugins/vue-clipboard.js"],
+  plugins: [
+    "~/plugins/vuetify.js",
+    "~/plugins/vue-clipboard.js",
+    "~/plugins/vue-scrollto.js",
+  ],
   css: ["~/assets/style/app.styl"],
   loading: { color: "#3B8070" },
   build: {
-    vendor: ["~/plugins/vuetify.js", "~/plugins/vue-clipboard.js"],
+    vendor: [
+      "~/plugins/vuetify.js",
+      "~/plugins/vue-clipboard.js",
+      "~/plugins/vue-scrollto.js",
+    ],
     extractCSS: true,
     extend(config, ctx) {
       if (ctx.isDev && ctx.isClient) {

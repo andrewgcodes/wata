@@ -8,14 +8,14 @@
 
 <style scoped>
 div {
-  background-image: linear-gradient(135deg, #fccf31 10%, #f55555 100%);
+  background-color: #ffeb3b;
   padding: 1rem;
 }
 
 h1 {
   text-align: center;
   font-size: 5rem;
-  color: whitesmoke;
+  color: #2c281f;
 }
 
 a {

@@ -3,7 +3,10 @@
   <no-translations v-if="translatedWordCount === 0" />
   <div v-else>
     <div>
-      <v-btn :outline="!isSelected('all')" :color="isSelected('all') && 'yellow'" @click="selectAll()">all</v-btn>
+      <v-btn
+        :outline="!isSelected('all')"
+        :color="isSelected('all') && 'yellow'"
+        @click="selectAll()">all</v-btn>
       <v-btn
         v-for="{ name, icon } in availableCategories"
         :key="name" @click="selectCategory(name)"
@@ -80,9 +83,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.layout {
-  padding: 0.6rem;
-}
-</style>

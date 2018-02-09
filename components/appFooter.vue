@@ -1,17 +1,20 @@
 <template >
   <v-footer>
-    <p>&copy; 2018 WATA</p>
-    <p>Made by Michał Czmiel</p>
+    <div>
+      <p>&copy; 2018 WATA</p>
+      <p>Made by Michał Czmiel</p>
+    </div>
   </v-footer>
 </template>
 
 <style scoped>
 footer {
   padding: 2rem;
-  text-align: center;
 }
 
-p {
-  margin-left: 1rem;
+div {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
 }
 </style>

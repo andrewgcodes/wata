@@ -4,7 +4,9 @@
   <v-list style="background: inherit">
     <v-card v-for="{name, slug, countries = []} in allLanguages" v-bind:key="slug">
     <v-list-tile-content>
-      <v-list-tile-title>{{ name }}</v-list-tile-title>
+      <nuxt-link :to="`/languages/${slug}`">
+        <v-list-tile-title>{{ name }}</v-list-tile-title>
+      </nuxt-link>
       <v-list-tile-sub-title>
         <template v-for="countryFlag in countries">
           {{ countryFlag }}
@@ -33,5 +35,10 @@ export default {
 .card {
   padding: 2rem;
   margin: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 </style>
