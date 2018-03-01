@@ -9,9 +9,9 @@
           <v-icon class="selected-icon" icon dark large>{{ emoji }}</v-icon>
         </v-card-text>
         <v-card-actions>
-          <v-btn block class="translation">Copy translation</v-btn>
+          <v-btn block class="translation" v-clipboard:copy="translation">Copy translation</v-btn>
           <v-btn block color="emoji" v-clipboard:copy="emoji">Copy emoji</v-btn>
-          <v-btn block color="close" @click.stop="active = false" data-micron="bounce">Close</v-btn>
+          <v-btn block color="close" @click.stop="active = false">Close</v-btn>
         </v-card-actions>
       </v-card>
     </v-dialog>
@@ -55,6 +55,7 @@ export default {
 .card__text {
   display: flex;
   justify-content: center;
+  text-transform: capitalize;
 }
 
 .icon {

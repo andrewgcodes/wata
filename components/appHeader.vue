@@ -8,17 +8,15 @@
 
 <style scoped>
 div {
-  background-color: #ffeb3b;
-  padding: 1rem;
+  width: 300px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
   text-align: center;
   font-size: 5rem;
-  color: #2c281f;
-}
-
-a {
-  text-decoration: none;
 }
 </style>

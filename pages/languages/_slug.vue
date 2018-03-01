@@ -2,25 +2,24 @@
 <div>
   <no-translations v-if="translatedWordCount === 0" />
   <div v-else>
-    <div>
-      <v-btn
-        :outline="!isSelected('all')"
-        :color="isSelected('all') && 'yellow'"
-        @click="selectAll()">all</v-btn>
-      <v-btn
-        v-for="{ name, icon } in availableCategories"
-        :key="name" @click="selectCategory(name)"
-        :outline="!isSelected(name)"
-        :color="isSelected(name) && 'yellow'"
-      >
-        {{ icon }} {{ name }}
-      </v-btn>
-    </div>
+    <v-layout row wrap class="light--text">
+      <v-flex md2 sm4 xs6>
+        <v-checkbox label="All categories" v-model="selectedCategories" value="all" />
+      </v-flex>
+      <v-flex v-for="{ name, icon } in availableCategories" :key="name" md2 sm4 xs6>
+        <v-checkbox
+          :label="`${icon} ${name}`"
+          v-model="selectedCategories"
+          :value="name"
+          style="text-transform: capitalize"
+        />
+      </v-flex>
+    </v-layout>
     <v-layout>
       <v-flex>
         <category
           v-for="{ name, words } in allCategories"
-          v-if="isSelected('all') || isSelected(name)"
+          v-if="isCategorySelected('all') || isCategorySelected(name)"
           v-bind:key="name"
           :name="name"
           :words="words"
@@ -48,22 +47,10 @@ export default {
     selectedCategories: ["all"],
   }),
   methods: {
-    selectCategory(name) {
-      if (this.isSelected(name)) {
-        this.selectedCategories = this.selectedCategories.filter(
-          categoryName => categoryName !== name
-        );
-      } else {
-        this.selectedCategories = this.selectedCategories.filter(
-          categoryName => categoryName !== "all"
-        );
-        this.selectedCategories.push(name);
-      }
-    },
-    selectAll() {
+    selectAllCategories() {
       this.selectedCategories = ["all"];
     },
-    isSelected(name) {
+    isCategorySelected(name) {
       return this.selectedCategories.includes(name);
     },
   },
@@ -78,6 +65,12 @@ export default {
     selectedCategories() {
       if (this.selectedCategories.length === 0) {
         this.selectedCategories.push("all");
+      } else if (this.selectedCategories.length === 2) {
+        if (this.isCategorySelected("all")) {
+          this.selectedCategories = this.selectedCategories.filter(
+            name => name !== "all"
+          );
+        }
       }
     },
   },

@@ -9,7 +9,8 @@
 
 <style scoped>
 footer {
-  padding: 2rem;
+  padding: 5rem;
+  background-color: #fff !important;
 }
 
 div {

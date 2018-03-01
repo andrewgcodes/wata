@@ -1,15 +1,14 @@
 <template>
-  <v-card elevation="5">
+  <v-card>
     <v-card-media>
       <v-icon dark large>{{ icon }}</v-icon>
     </v-card-media>
     <v-card-title primary-title>
-      <div>
-        <h3 class="mb-0 display-1">{{ title }}</h3>
-        <div>{{ description }}</div>
-      </div>
+      <h3 class="mb-0 display-2 text-xs-center text-md-center">{{ title }}</h3>
     </v-card-title>
-    <v-card-text />
+    <v-card-text>
+      {{ description }}
+    </v-card-text>
   </v-card>
 </template>
 
@@ -23,11 +22,14 @@ export default {
 };
 </script>
 
-
 <style scoped>
 .card {
-  text-align: center;
+  text-align: center !important;
+  border: none !important;
+  background: inherit !important;
+  box-shadow: none !important;
 }
+
 .icon {
   margin: 1rem;
   margin-left: auto;
@@ -35,7 +37,13 @@ export default {
   font-size: 3.5rem;
 }
 
-.display-1 {
-  font-weight: 700;
+.display-2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card__text {
+  font-size: 1.1em;
+  padding-top: 0 !important;
 }
 </style>
