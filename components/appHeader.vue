@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nuxt-link to="/">
+    <nuxt-link :to="{ name: 'index'}">
       <h1>WATA</h1>
     </nuxt-link>
   </div>

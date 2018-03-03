@@ -58,7 +58,9 @@ export default {
     },
     language() {
       this.selectLanguage(this.language);
-      this.$router.push({ path: `/languages/${this.language}` });
+      if(this.language !== "") {
+        this.$router.push({ path: `/languages/${this.language}` });
+      }
     },
   },
 };
