@@ -2,13 +2,19 @@ const languages = require("./data/languages");
 
 const languagesRoutes = languages.map(({ slug }) => `/languages/${slug}`);
 
+const routes = ["/", "/languages", ...languagesRoutes];
+
 module.exports = {
   head: {
     title: "Wata",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "wata" },
+      {
+        hid: "description",
+        name: "description",
+        content: "Learn foreign languages using emojis",
+      },
     ],
     link: [
       {
@@ -18,13 +24,19 @@ module.exports = {
       },
     ],
   },
+  manifest: {
+    name: "Wata",
+    description: "Learn foreign languages using emojis",
+    theme_color: "#04befe",
+  },
+  modules: ["@nuxtjs/pwa", "@nuxtjs/component-cache", "@nuxtjs/sitemap"],
   plugins: [
     "~/plugins/vuetify.js",
     "~/plugins/vue-clipboard.js",
     "~/plugins/vue-scrollto.js",
   ],
   css: ["~/assets/style/app.styl"],
-  loading: { color: "#3B8070" },
+  loading: { color: "#04befe" },
   build: {
     vendor: [
       "~/plugins/vuetify.js",
@@ -44,6 +56,20 @@ module.exports = {
     },
   },
   generate: {
-    routes: ["/", "/languages", ...languagesRoutes],
+    routes,
+  },
+  sitemap: {
+    routes,
+    generate: true,
+  },
+  render: {
+    static: {
+      maxAge: "1y",
+      setHeaders(res, path) {
+        if (path.includes("sw.js")) {
+          res.setHeader("Cache-Control", "public, max-age=0");
+        }
+      },
+    },
   },
 };

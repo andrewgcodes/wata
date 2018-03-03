@@ -40,7 +40,6 @@ export default {
     AppFooter,
     BrowseLanguages,
     ToTop,
-
   },
   data: () => ({
     language: "",
@@ -64,7 +63,7 @@ export default {
     },
     language() {
       this.selectLanguage(this.language);
-      if(this.language !== "") {
+      if (this.language !== "") {
         this.$router.push({ path: `/languages/${this.language}` });
       }
     },

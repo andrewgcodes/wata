@@ -32,7 +32,7 @@ export default {
     translatedWordCount() {
       return getTranslatedWordCount(this.slug);
     },
-  }
+  },
 };
 </script>
 

@@ -1,7 +1,7 @@
 {
   "name": "wata",
   "version": "3.1.0",
-  "description": "wata",
+  "description": "Learn foreign languages using emojis",
   "author": "Michał Czmiel",
   "private": true,
   "scripts": {
@@ -12,6 +12,9 @@
     "test": "ava"
   },
   "dependencies": {
+    "@nuxtjs/component-cache": "^1.1.1",
+    "@nuxtjs/pwa": "^2.0.5",
+    "@nuxtjs/sitemap": "^0.0.3",
     "font-awesome": "^4.7.0",
     "nuxt": "^1.4.0",
     "vue": "^2.5.13",

@@ -1,4 +1,4 @@
-# wata
+# Wata
 
 ## Build Setup
 
