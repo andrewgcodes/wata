@@ -11,30 +11,14 @@
           placeholder="Select language"
           autocomplete
         ></v-select>
-        <div class="text-xs-center">
-          <nuxt-link to="/languages">
-            <v-btn round dark large>⚡️ Browse languages</v-btn>
-          </nuxt-link>
-        </div>
+        <browse-languages />
       </v-container>
       <v-container>
         <nuxt />
       </v-container>
     </v-content>
     <app-footer />
-    <v-btn
-      fab
-      dark
-      fixed
-      bottom
-      right
-      color="red"
-      v-scroll="onScroll"
-      v-show="fab"
-      v-scroll-to="'#app'"
-    >
-      <v-icon>keyboard_arrow_up</v-icon>
-    </v-btn>
+    <to-top />
   </v-app>
 </template>
 
@@ -42,53 +26,40 @@
 import { mapGetters, mapMutations } from "vuex";
 import AppHeader from "../components/appHeader.vue";
 import AppFooter from "../components/appFooter.vue";
+import ToTop from "../components/toTop.vue";
+import BrowseLanguages from "../components/browseLanguages.vue";
 
 export default {
   components: {
     AppHeader,
     AppFooter,
+    ToTop,
+    BrowseLanguages,
   },
   data: () => ({
-    language: null,
-    fab: false,
+    language: "",
   }),
   created() {
+    this.selectLanguage(this.routeLanguage);
     this.language = this.routeLanguage;
-  },
-  mounted() {
-    this.onScroll();
   },
   methods: {
     ...mapMutations(["selectLanguage"]),
-    onScroll() {
-      if (typeof window === "undefined") {
-        return;
-      }
-      const top = window.pageYOffset || document.documentElement.offsetTop || 0;
-      this.fab = top > 300;
-    },
   },
   computed: {
     ...mapGetters(["allLanguages"]),
     routeLanguage() {
-      return this.$route.params.slug || null;
+      return this.$route.params.slug || "";
     },
   },
   watch: {
-    language(newLanguage) {
-      this.selectLanguage(newLanguage);
-      this.$router.push({ path: `/languages/${newLanguage}` });
+    $route(route) {
+      this.language = route.params.slug || "";
+    },
+    language() {
+      this.selectLanguage(this.language);
+      this.$router.push({ path: `/languages/${this.language}` });
     },
   },
 };
 </script>
-
-<style scoped>
-a {
-  text-decoration: none !important;
-}
-
-.btn {
-  background: linear-gradient(135deg, #6253e1, #04befe) !important;
-}
-</style>

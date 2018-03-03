@@ -1,10 +1,16 @@
 <template>
   <v-card>
     <v-card-title>
-      <h3>{{ name === "Chinese(Simplified)" ? "Chinese\n(Simplified)" : name }}</h3>
+      <h3>{{ name }}</h3>
     </v-card-title>
     <v-card-text>
-      <v-icon small v-for="countryFlag in countries" v-bind:key="countryFlag">{{ countryFlag }}</v-icon>
+      <v-icon
+        v-for="countryFlag in countries"
+        :key="countryFlag"
+        small
+      >
+        {{ countryFlag }}
+      </v-icon>
     </v-card-text>
   </v-card>
 </template>

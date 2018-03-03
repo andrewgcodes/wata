@@ -1,19 +1,24 @@
 <template>
-  <v-card>
-    <v-container grid-list-xl>
-      <v-layout wrap>
-        <word
-          v-for="{ name, emoji, translations, category } in words"
-          :key="name"
-          :name="name"
-          :category="category"
-          :emoji="emoji"
-          :translation="getTranslation(translations)"
-          >
-        </word>
-      </v-layout>
-    </v-container>
-  </v-card>
+  <v-expansion-panel>
+   <v-expansion-panel-content :value="true">
+    <div slot="header">{{ name }}</div>
+    <v-card>
+      <v-container grid-list-xl>
+        <v-layout wrap>
+          <word
+            v-for="{ name, emoji, translations, category } in words"
+            :key="name"
+            :name="name"
+            :category="category"
+            :emoji="emoji"
+            :translation="getTranslation(translations)"
+            >
+          </word>
+        </v-layout>
+      </v-container>
+    </v-card>
+    </v-expansion-panel-content>
+  </v-expansion-panel>
 </template>
 
 <script>
@@ -52,6 +57,15 @@ export default {
 </script>
 
 <style scoped>
+.expansion-panel {
+  margin-top: 0.5rem;
+}
+
+.expansion-panel__header div {
+  text-transform: capitalize !important;
+  font-size: 2em;
+}
+
 .card {
   margin-bottom: 1rem;
 }
