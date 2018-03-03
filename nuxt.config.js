@@ -29,7 +29,7 @@ module.exports = {
     description: "Learn foreign languages using emojis",
     theme_color: "#04befe",
   },
-  modules: ["@nuxtjs/pwa", "@nuxtjs/component-cache", "@nuxtjs/sitemap"],
+  modules: ["@nuxtjs/pwa", "@nuxtjs/component-cache"],
   plugins: [
     "~/plugins/vuetify.js",
     "~/plugins/vue-clipboard.js",
