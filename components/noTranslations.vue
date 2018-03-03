@@ -1,13 +1,13 @@
 <template>
-  <v-card>
+  <v-card class="text-center">
     <v-card-title>
-      <h1>Sorry, this language has no tranlsated words 🙁</h1>
+      <p class="display-1">Sorry, this language has no tranlsated words 🙁</p>
     </v-card-title>
     <v-card-text>
-      <h2>
+      <p class="display-0">
         If you know this language you can help translate on
         <a href="https://github.com/michalczmiel/wata">Github</a> ⌨️📚
-      </h2>
+      </p>
     </v-card-text>
   </v-card>
 </template>
@@ -24,5 +24,13 @@ export default {
 .card__text {
   display: flex;
   justify-content: center;
+}
+
+.card__text {
+  font-size: 1.5em;
+}
+
+a {
+  color: #04befe;
 }
 </style>

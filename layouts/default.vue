@@ -3,14 +3,19 @@
     <v-content>
       <app-header/>
       <v-container>
-        <v-select
-          v-bind:items="allLanguages"
-          item-text="name"
-          item-value="slug"
-          v-model="language"
-          placeholder="Select language"
-          autocomplete
-        ></v-select>
+          <v-select
+            class="language-picker"
+            :items="allLanguages"
+            item-text="name"
+            item-value="slug"
+            v-model="language"
+            placeholder="Select language"
+            prepend-icon="search"
+            flat
+            color="info"
+            autocomplete
+            solo
+          ></v-select>
         <browse-languages />
       </v-container>
       <v-container>
@@ -33,8 +38,9 @@ export default {
   components: {
     AppHeader,
     AppFooter,
-    ToTop,
     BrowseLanguages,
+    ToTop,
+
   },
   data: () => ({
     language: "",
@@ -65,3 +71,10 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.language-picker {
+  border-radius: 28px;
+  color: black;
+}
+</style>

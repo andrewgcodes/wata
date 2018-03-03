@@ -1,8 +1,7 @@
 <template >
   <v-footer>
     <div>
-      <p>&copy; 2018 WATA</p>
-      <p>Made by Michał Czmiel</p>
+      <p>Made with ❤️ by <a href="https://michalczmiel.me/">Michał Czmiel</a></p>
     </div>
   </v-footer>
 </template>
@@ -11,6 +10,10 @@
 footer {
   padding: 5rem;
   background-color: #fff !important;
+}
+
+a {
+  color: #04befe;
 }
 
 div {

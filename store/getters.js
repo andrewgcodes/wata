@@ -1,4 +1,5 @@
 import { getTranslatedWordCount } from "../api";
+import splitAlphabetically from "../utils";
 
 const getters = {
   allLanguages: state => state.languages,
@@ -6,6 +7,7 @@ const getters = {
   allCategories: state => state.categories,
   translatedWordCount: state => getTranslatedWordCount(state.selectedLanguage),
   availableCategories: state => state.availableCategories,
+  languagesAlphabeticallySplited: state => splitAlphabetically(state.languages),
 };
 
 export default getters;

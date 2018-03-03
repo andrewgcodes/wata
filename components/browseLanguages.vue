@@ -15,5 +15,6 @@ export default {
 <style scoped>
 .btn {
   background: linear-gradient(135deg, #6253e1, #04befe) !important;
+  margin-top: 1rem;
 }
 </style>
