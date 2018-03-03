@@ -10,8 +10,8 @@
     "prettier"
   ],
   "plugins": [
-    "html",
-    "prettier"
+    "prettier",
+    "html"
   ],
   "rules": {
     "import/no-extraneous-dependencies": "off",
