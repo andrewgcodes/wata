@@ -4,7 +4,7 @@
       <v-icon dark large>{{ icon }}</v-icon>
     </v-card-media>
     <v-card-title primary-title>
-      <h3 class="mb-0 display-2 text-xs-center text-md-center">{{ title }}</h3>
+      <h3 class="display-1">{{ title }}</h3>
     </v-card-title>
     <v-card-text>
       {{ description }}
@@ -37,7 +37,7 @@ export default {
   font-size: 3.5rem;
 }
 
-.display-2 {
+.display-1 {
   margin-left: auto;
   margin-right: auto;
 }

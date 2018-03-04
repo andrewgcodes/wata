@@ -6,7 +6,7 @@
     <v-card-text>
       <p class="display-0">
         If you know this language you can help translate on
-        <a href="https://github.com/michalczmiel/wata">Github</a> ⌨️📚
+        <a class="primary-color" href="https://github.com/michalczmiel/wata">Github</a> ⌨️📚
       </p>
     </v-card-text>
   </v-card>
@@ -26,11 +26,13 @@ export default {
   justify-content: center;
 }
 
-.card__text {
-  font-size: 1.5em;
+.card__title {
+  padding-bottom: 0 !important;
+  padding-top: 2rem;
 }
 
-a {
-  color: #04befe;
+.card__text {
+  padding-top: 0 !important;
+  font-size: 1.5em;
 }
 </style>

@@ -3,10 +3,10 @@
     <v-dialog v-model="active" max-width="600px">
       <v-card>
         <v-card-title>
-          <h2 class="headline mb-1">{{ translation }}</h2>
+          <v-icon class="selected-icon" icon dark large>{{ emoji }}</v-icon>
         </v-card-title>
         <v-card-text>
-          <v-icon class="selected-icon" icon dark large>{{ emoji }}</v-icon>
+          <p class="display-2">{{ translation }}</p>
         </v-card-text>
         <v-card-actions>
           <v-btn block class="translation" v-clipboard:copy="translation">Copy translation</v-btn>
@@ -84,9 +84,14 @@ export default {
   background-image: linear-gradient(112deg, #ff4f81, #ff6c5f);
 }
 
-@media (max-width: 600px) {
+
+.dialog {
+  margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
   .btn {
-    font-size: 10px;
+    font-size: 8px;
   }
 }
 </style>

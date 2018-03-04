@@ -69,4 +69,9 @@ export default {
 .card {
   margin-bottom: 1rem;
 }
+
+.layout {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
 </style>

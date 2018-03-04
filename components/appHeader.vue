@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="primary-color">
     <nuxt-link :to="{ name: 'index'}">
       <h1>WATA</h1>
     </nuxt-link>
@@ -13,6 +13,7 @@ div {
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
+  border: 3px solid;
 }
 
 h1 {
