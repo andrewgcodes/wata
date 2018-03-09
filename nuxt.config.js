@@ -28,7 +28,7 @@ module.exports = {
       {
         hid: `og:image`,
         property: "og:image",
-        content: "/icon.png",
+        content: "https://wata.online/icon.png",
       },
       {
         hid: `og:description`,
@@ -48,7 +48,7 @@ module.exports = {
       {
         hid: `twitter:image`,
         property: "twitter:image",
-        content: "/icon.png",
+        content: "https://wata.online/icon.png",
       },
       {
         hid: `twitter:creator`,
