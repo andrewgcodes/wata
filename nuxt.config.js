@@ -15,6 +15,46 @@ module.exports = {
         name: "description",
         content: "Learn foreign languages using emojis",
       },
+      {
+        hid: `og:title`,
+        property: "og:title",
+        content: `Wata`,
+      },
+      {
+        hid: `og:url`,
+        property: "og:url",
+        content: "https://wata.online",
+      },
+      {
+        hid: `og:image`,
+        property: "og:image",
+        content: "/icon.png",
+      },
+      {
+        hid: `og:description`,
+        property: "og:description",
+        content: "Learn foreign languages using emojis",
+      },
+      {
+        hid: `twitter:title`,
+        property: "twitter:title",
+        content: "Wata",
+      },
+      {
+        hid: `twitter:description`,
+        property: "twitter:description",
+        content: "Learn foreign languages using emojis",
+      },
+      {
+        hid: `twitter:image`,
+        property: "twitter:image",
+        content: "/icon.png",
+      },
+      {
+        hid: `twitter:creator`,
+        property: "twitter:creator",
+        content: "@michalczmiel",
+      },
     ],
     link: [
       {
