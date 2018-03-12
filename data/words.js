@@ -6,6 +6,7 @@ module.exports = [
     translations: {
       en: "dog",
       pl: "pies",
+      es: "perro",
     },
   },
   {
@@ -15,6 +16,7 @@ module.exports = [
     translations: {
       en: "monkey",
       pl: "małpa",
+      es: "mono",
     },
   },
   {
@@ -24,6 +26,7 @@ module.exports = [
     translations: {
       en: "gorilla",
       pl: "goryl",
+      es: "gorila",
     },
   },
   {
@@ -33,6 +36,7 @@ module.exports = [
     translations: {
       en: "cat",
       pl: "kot",
+      es: "gato",
     },
   },
   {
@@ -42,6 +46,7 @@ module.exports = [
     translations: {
       en: "tiger",
       pl: "tygrys",
+      es: "tigre",
     },
   },
   {
@@ -51,6 +56,7 @@ module.exports = [
     translations: {
       en: "horse",
       pl: "koń",
+      es: "caballo",
     },
   },
   {
@@ -60,6 +66,7 @@ module.exports = [
     translations: {
       en: "leopard",
       pl: "leopard",
+      es: "leopardo",
     },
   },
   {
@@ -69,6 +76,7 @@ module.exports = [
     translations: {
       en: "dove",
       pl: "gołąb",
+      es: "paloma",
     },
   },
   {
@@ -78,6 +86,7 @@ module.exports = [
     translations: {
       en: "sheep",
       pl: "owca",
+      es: "oveja",
     },
   },
   {
@@ -87,6 +96,7 @@ module.exports = [
     translations: {
       en: "cow",
       pl: "krowa",
+      es: "vaca",
     },
   },
   {
@@ -96,6 +106,7 @@ module.exports = [
     translations: {
       en: "camel",
       pl: "wielbłąd",
+      es: "camello",
     },
   },
   {
@@ -105,6 +116,7 @@ module.exports = [
     translations: {
       en: "snake",
       pl: "wąż",
+      es: "serpiente",
     },
   },
   {
@@ -114,6 +126,7 @@ module.exports = [
     translations: {
       en: "pig",
       pl: "świnia",
+      es: "cerdo",
     },
   },
   {
@@ -123,6 +136,7 @@ module.exports = [
     translations: {
       en: "turtle",
       pl: "zółw",
+      es: "tortuga",
     },
   },
   {
@@ -132,6 +146,7 @@ module.exports = [
     translations: {
       en: "ox",
       pl: "wół",
+      es: "buey",
     },
   },
   {
@@ -141,6 +156,7 @@ module.exports = [
     translations: {
       en: "rat",
       pl: "szczur",
+      es: "rata",
     },
   },
   {
@@ -150,6 +166,7 @@ module.exports = [
     translations: {
       en: "dolphin",
       pl: "delfin",
+      es: "delfín",
     },
   },
   {
@@ -159,6 +176,7 @@ module.exports = [
     translations: {
       en: "whale",
       pl: "wieloryb",
+      es: "ballena",
     },
   },
   {
@@ -168,6 +186,7 @@ module.exports = [
     translations: {
       en: "owl",
       pl: "sowa",
+      es: "búho",
     },
   },
   {
@@ -177,6 +196,7 @@ module.exports = [
     translations: {
       en: "bear",
       pl: "niedźwiedź",
+      es: "oso",
     },
   },
   {
@@ -186,6 +206,7 @@ module.exports = [
     translations: {
       en: "elephant",
       pl: "słoń",
+      es: "elefante",
     },
   },
   {
@@ -195,6 +216,7 @@ module.exports = [
     translations: {
       en: "goat",
       pl: "koza",
+      es: "cabra",
     },
   },
   {
@@ -204,6 +226,7 @@ module.exports = [
     translations: {
       en: "ram",
       pl: "baran",
+      es: "carnero",
     },
   },
   {
@@ -213,6 +236,7 @@ module.exports = [
     translations: {
       en: "duck",
       pl: "kaczka",
+      es: "pato",
     },
   },
   {
@@ -222,6 +246,7 @@ module.exports = [
     translations: {
       en: "chicken",
       pl: "kurczak",
+      es: "pollo",
     },
   },
   {
@@ -231,6 +256,7 @@ module.exports = [
     translations: {
       en: "chipmunk",
       pl: "wiewiórka",
+      es: "ardilla",
     },
   },
   {
@@ -240,6 +266,7 @@ module.exports = [
     translations: {
       en: "rhinoceros",
       pl: "nosorożec",
+      es: "rinoceronte",
     },
   },
   {
@@ -249,6 +276,7 @@ module.exports = [
     translations: {
       en: "mouse",
       pl: "mysz",
+      es: "ratón",
     },
   },
   {
@@ -258,6 +286,7 @@ module.exports = [
     translations: {
       en: "poodle",
       pl: "pudel",
+      es: "caniche",
     },
   },
   {
@@ -267,6 +296,7 @@ module.exports = [
     translations: {
       en: "snail",
       pl: "ślimak",
+      es: "caracol",
     },
   },
   {
@@ -276,6 +306,7 @@ module.exports = [
     translations: {
       en: "bat",
       pl: "nietoperz",
+      es: "murciélago",
     },
   },
   {
@@ -285,6 +316,7 @@ module.exports = [
     translations: {
       en: "turkey",
       pl: "indyk",
+      es: "pavo",
     },
   },
   {
@@ -294,6 +326,7 @@ module.exports = [
     translations: {
       en: "water buffalo",
       pl: "wół domowy",
+      es: "búfalo de agua",
     },
   },
   {
@@ -303,6 +336,7 @@ module.exports = [
     translations: {
       en: "frog",
       pl: "żaba",
+      es: "rana",
     },
   },
   {
@@ -312,6 +346,7 @@ module.exports = [
     translations: {
       en: "eagle",
       pl: "orzeł",
+      es: "águila",
     },
   },
   {
@@ -321,6 +356,7 @@ module.exports = [
     translations: {
       en: "crocodile",
       pl: "krokodyl",
+      es: "cocodrilo",
     },
   },
   {
@@ -330,6 +366,7 @@ module.exports = [
     translations: {
       en: "octopus",
       pl: "ośmiornica",
+      es: "pulpo",
     },
   },
   {
@@ -339,6 +376,7 @@ module.exports = [
     translations: {
       en: "crab",
       pl: "krab",
+      es: "cangrejo",
     },
   },
   {
@@ -348,6 +386,7 @@ module.exports = [
     translations: {
       en: "scorpion",
       pl: "skorpion",
+      es: "escorpión",
     },
   },
   {
@@ -357,6 +396,7 @@ module.exports = [
     translations: {
       en: "ant",
       pl: "mrówka",
+      es: "hormiga",
     },
   },
   {
@@ -366,6 +406,7 @@ module.exports = [
     translations: {
       en: "beetle",
       pl: "chrząszcz",
+      es: "escarabajo",
     },
   },
   {
@@ -375,6 +416,7 @@ module.exports = [
     translations: {
       en: "butterfly",
       pl: "motyl",
+      es: "mariposa",
     },
   },
   {
@@ -384,6 +426,7 @@ module.exports = [
     translations: {
       en: "penguin",
       pl: "pingwin",
+      es: "pingüino",
     },
   },
   {
@@ -393,6 +436,7 @@ module.exports = [
     translations: {
       en: "rabbit",
       pl: "królik",
+      es: "conejo",
     },
   },
   {
@@ -402,6 +446,7 @@ module.exports = [
     translations: {
       en: "fish",
       pl: "ryba",
+      es: "pez",
     },
   },
   {
@@ -411,6 +456,7 @@ module.exports = [
     translations: {
       en: "shark",
       pl: "rekin",
+      es: "tiburón",
     },
   },
   {
@@ -420,6 +466,7 @@ module.exports = [
     translations: {
       en: "grapes",
       pl: "winogrona",
+      es: "uvas",
     },
   },
   {
@@ -429,6 +476,7 @@ module.exports = [
     translations: {
       en: "strawberry",
       pl: "truskawka",
+      es: "fresa",
     },
   },
   {
@@ -438,6 +486,7 @@ module.exports = [
     translations: {
       en: "lemon",
       pl: "cytryna",
+      es: "limón",
     },
   },
   {
@@ -447,6 +496,7 @@ module.exports = [
     translations: {
       en: "melon",
       pl: "melon",
+      es: "melón",
     },
   },
   {
@@ -456,6 +506,7 @@ module.exports = [
     translations: {
       en: "kiwi fruit",
       pl: "kiwi",
+      es: "kiwi",
     },
   },
   {
@@ -465,6 +516,7 @@ module.exports = [
     translations: {
       en: "banana",
       pl: "banan",
+      es: "plátano / banana",
     },
   },
   {
@@ -474,6 +526,7 @@ module.exports = [
     translations: {
       en: "apple",
       pl: "jabłko",
+      es: "manzana",
     },
   },
   {
@@ -483,6 +536,7 @@ module.exports = [
     translations: {
       en: "pineapple",
       pl: "ananas",
+      es: "piña",
     },
   },
   {
@@ -492,6 +546,7 @@ module.exports = [
     translations: {
       en: "pear",
       pl: "gruszka",
+      es: "pera",
     },
   },
   {
@@ -501,6 +556,7 @@ module.exports = [
     translations: {
       en: "peach",
       pl: "brzoskwinia",
+      es: "melocotón",
     },
   },
   {
@@ -510,6 +566,7 @@ module.exports = [
     translations: {
       en: "avocado",
       pl: "awokado",
+      es: "aguacate",
     },
   },
   {
@@ -519,6 +576,7 @@ module.exports = [
     translations: {
       en: "tangerine",
       pl: "mandarynka",
+      es: "mandarina",
     },
   },
   {
@@ -528,6 +586,7 @@ module.exports = [
     translations: {
       en: "tomato",
       pl: "pomidor",
+      es: "tomate",
     },
   },
   {
@@ -537,6 +596,7 @@ module.exports = [
     translations: {
       en: "watermelon",
       pl: "arbuz",
+      es: "sandía",
     },
   },
   {
@@ -546,6 +606,7 @@ module.exports = [
     translations: {
       en: "cherries",
       pl: "czereśnie",
+      es: "cerezas",
     },
   },
   {
@@ -555,6 +616,7 @@ module.exports = [
     translations: {
       en: "hot pepper",
       pl: "papryka chili",
+      es: "guindilla",
     },
   },
   {
@@ -564,6 +626,7 @@ module.exports = [
     translations: {
       en: "carrot",
       pl: "marchewka",
+      es: "zanahoria",
     },
   },
   {
@@ -573,6 +636,7 @@ module.exports = [
     translations: {
       en: "eggplant",
       pl: "bakłażan",
+      es: "berenjena",
     },
   },
   {
@@ -582,6 +646,7 @@ module.exports = [
     translations: {
       en: "potato",
       pl: "ziemniak",
+      es: "patata",
     },
   },
   {
@@ -591,6 +656,7 @@ module.exports = [
     translations: {
       en: "sweet potato",
       pl: "batat",
+      es: "batata",
     },
   },
   {
@@ -600,6 +666,7 @@ module.exports = [
     translations: {
       en: "cucumber",
       pl: "ogórek",
+      es: "pepino",
     },
   },
   {
@@ -609,6 +676,7 @@ module.exports = [
     translations: {
       en: "corn",
       pl: "kukurydza",
+      es: "maíz",
     },
   },
   {
@@ -618,6 +686,7 @@ module.exports = [
     translations: {
       en: "peanuts",
       pl: "orzechy",
+      es: "cacahuetes",
     },
   },
   {
@@ -627,6 +696,7 @@ module.exports = [
     translations: {
       en: "honey",
       pl: "miód",
+      es: "miel",
     },
   },
   {
@@ -636,6 +706,7 @@ module.exports = [
     translations: {
       en: "bread",
       pl: "chleb",
+      es: "pan",
     },
   },
   {
@@ -645,6 +716,7 @@ module.exports = [
     translations: {
       en: "cheese",
       pl: "ser",
+      es: "queso",
     },
   },
   {
@@ -654,6 +726,7 @@ module.exports = [
     translations: {
       en: "egg",
       pl: "jajko",
+      es: "huevo",
     },
   },
   {
@@ -663,6 +736,7 @@ module.exports = [
     translations: {
       en: "rice",
       pl: "ryż",
+      es: "arroz",
     },
   },
   {
@@ -672,6 +746,7 @@ module.exports = [
     translations: {
       en: "croissant",
       pl: "croissant",
+      es: "croissant",
     },
   },
   {
@@ -681,6 +756,7 @@ module.exports = [
     translations: {
       en: "chocolate",
       pl: "czekolada",
+      es: "chocolate",
     },
   },
   {
@@ -690,6 +766,7 @@ module.exports = [
     translations: {
       en: "french fries",
       pl: "frytki",
+      es: "patatas fritas",
     },
   },
   {
@@ -699,6 +776,7 @@ module.exports = [
     translations: {
       en: "cookie",
       pl: "ciastko",
+      es: "galleta",
     },
   },
   {
@@ -708,6 +786,7 @@ module.exports = [
     translations: {
       en: "candy",
       pl: "cukierek",
+      es: "caramelo",
     },
   },
   {
@@ -717,6 +796,7 @@ module.exports = [
     translations: {
       en: "snowboarding",
       pl: "snowboard",
+      es: "snowboarding",
     },
   },
   {
@@ -726,6 +806,7 @@ module.exports = [
     translations: {
       en: "horse racing",
       pl: "jeździectwo",
+      es: "carreras de caballo",
     },
   },
   {
@@ -735,6 +816,7 @@ module.exports = [
     translations: {
       en: "swimming",
       pl: "pływanie",
+      es: "natación",
     },
   },
   {
@@ -744,6 +826,7 @@ module.exports = [
     translations: {
       en: "biking",
       pl: "kolarstwo",
+      es: "ciclismo",
     },
   },
   {
@@ -753,6 +836,7 @@ module.exports = [
     translations: {
       en: "skiing",
       pl: "narciarstwo",
+      es: "esquí",
     },
   },
   {
@@ -762,6 +846,7 @@ module.exports = [
     translations: {
       en: "surfing",
       pl: "surfing",
+      es: "surfeo",
     },
   },
   {
@@ -771,6 +856,7 @@ module.exports = [
     translations: {
       en: "golf",
       pl: "golf",
+      es: "golf",
     },
   },
   {
@@ -780,6 +866,7 @@ module.exports = [
     translations: {
       en: "handball",
       pl: "piłka ręczna",
+      es: "balonmano",
     },
   },
   {
@@ -789,6 +876,7 @@ module.exports = [
     translations: {
       en: "weightlifting",
       pl: "podnoszenie ciężarów",
+      es: "halterofilia",
     },
   },
   {
@@ -798,6 +886,7 @@ module.exports = [
     translations: {
       en: "basketball",
       pl: "koszykówka",
+      es: "baloncesto",
     },
   },
   {
@@ -807,6 +896,7 @@ module.exports = [
     translations: {
       en: "footbal",
       pl: "futbol",
+      es: "fútbol",
     },
   },
   {
@@ -816,6 +906,7 @@ module.exports = [
     translations: {
       en: "rugby",
       pl: "rugby",
+      es: "rugby",
     },
   },
   {
@@ -825,6 +916,7 @@ module.exports = [
     translations: {
       en: "soccer",
       pl: "piłka nożna",
+      es: "fútbol",
     },
   },
   {
@@ -834,6 +926,7 @@ module.exports = [
     translations: {
       en: "volleyball",
       pl: "siatkówka",
+      es: "voleibol",
     },
   },
   {
@@ -843,6 +936,7 @@ module.exports = [
     translations: {
       en: "badminton",
       pl: "badminton",
+      es: "bádminton",
     },
   },
   {
@@ -852,6 +946,7 @@ module.exports = [
     translations: {
       en: "tennis",
       pl: "tenis",
+      es: "tenis",
     },
   },
   {
@@ -861,6 +956,7 @@ module.exports = [
     translations: {
       en: "ping pong",
       pl: "tenis stołowy",
+      es: "tenis de mesa",
     },
   },
   {
@@ -870,6 +966,7 @@ module.exports = [
     translations: {
       en: "boxing",
       pl: "box",
+      es: "boxeo",
     },
   },
   {
@@ -879,6 +976,7 @@ module.exports = [
     translations: {
       en: "bowling",
       pl: "kręgle",
+      es: "bolos",
     },
   },
   {
@@ -888,6 +986,7 @@ module.exports = [
     translations: {
       en: "car",
       pl: "samochód",
+      es: "coche",
     },
   },
   {
@@ -897,6 +996,7 @@ module.exports = [
     translations: {
       en: "bus",
       pl: "autobus",
+      es: "autobús",
     },
   },
   {
@@ -906,6 +1006,7 @@ module.exports = [
     translations: {
       en: "train",
       pl: "pociąg",
+      es: "tren",
     },
   },
   {
@@ -915,6 +1016,7 @@ module.exports = [
     translations: {
       en: "bike",
       pl: "rower",
+      es: "bicicleta",
     },
   },
   {
@@ -924,6 +1026,7 @@ module.exports = [
     translations: {
       en: "ship",
       pl: "statek",
+      es: "barco",
     },
   },
   {
@@ -933,6 +1036,7 @@ module.exports = [
     translations: {
       en: "boat",
       pl: "łódź",
+      es: "barco de vela",
     },
   },
   {
@@ -942,6 +1046,7 @@ module.exports = [
     translations: {
       en: "speedboat",
       pl: "motorówka",
+      es: "lancha motora",
     },
   },
   {
@@ -951,6 +1056,7 @@ module.exports = [
     translations: {
       en: "truck",
       pl: "ciężarówka",
+      es: "camión",
     },
   },
   {
@@ -960,6 +1066,7 @@ module.exports = [
     translations: {
       en: "taxi",
       pl: "taksówka",
+      es: "taxi",
     },
   },
   {
@@ -969,6 +1076,7 @@ module.exports = [
     translations: {
       en: "helicopter",
       pl: "helikopter",
+      es: "helicóptero",
     },
   },
   {
@@ -978,6 +1086,7 @@ module.exports = [
     translations: {
       en: "airplane",
       pl: "samolot",
+      es: "avión",
     },
   },
   {
@@ -987,6 +1096,7 @@ module.exports = [
     translations: {
       en: "ambulance",
       pl: "ambulans",
+      es: "ambulancia",
     },
   },
   {
@@ -996,6 +1106,7 @@ module.exports = [
     translations: {
       en: "fire engine",
       pl: "wóz strażacki",
+      es: "camión de bomberos",
     },
   },
   {
@@ -1005,6 +1116,7 @@ module.exports = [
     translations: {
       en: "sheet music",
       pl: "nuty",
+      es: "partitura",
     },
   },
   {
@@ -1014,6 +1126,7 @@ module.exports = [
     translations: {
       en: "microphone",
       pl: "mikrofon",
+      es: "micrófono",
     },
   },
   {
@@ -1023,6 +1136,7 @@ module.exports = [
     translations: {
       en: "headphone",
       pl: "słuchawki",
+      es: "auriculares",
     },
   },
   {
@@ -1032,6 +1146,7 @@ module.exports = [
     translations: {
       en: "saxophone",
       pl: "saksofon",
+      es: "saxofón",
     },
   },
   {
@@ -1041,6 +1156,7 @@ module.exports = [
     translations: {
       en: "guitar",
       pl: "gitara",
+      es: "guitarra",
     },
   },
   {
@@ -1050,6 +1166,7 @@ module.exports = [
     translations: {
       en: "piano",
       pl: "pianino",
+      es: "piano",
     },
   },
   {
@@ -1059,6 +1176,7 @@ module.exports = [
     translations: {
       en: "trumpet",
       pl: "trąbka",
+      es: "trompeta",
     },
   },
   {
@@ -1068,6 +1186,7 @@ module.exports = [
     translations: {
       en: "violin",
       pl: "skrzypce",
+      es: "violín",
     },
   },
   {
@@ -1077,6 +1196,7 @@ module.exports = [
     translations: {
       en: "drum",
       pl: "bęben",
+      es: "tambor",
     },
   },
 ];
