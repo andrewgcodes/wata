@@ -84,7 +84,6 @@ export default {
   background-image: linear-gradient(112deg, #ff4f81, #ff6c5f);
 }
 
-
 .dialog {
   margin: 10px;
 }
