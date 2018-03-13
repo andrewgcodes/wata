@@ -7,6 +7,7 @@ module.exports = [
       en: "dog",
       pl: "pies",
       es: "perro",
+      hr: "pas",
     },
   },
   {
@@ -17,6 +18,7 @@ module.exports = [
       en: "monkey",
       pl: "małpa",
       es: "mono",
+      hr: "majmun",
     },
   },
   {
@@ -27,6 +29,7 @@ module.exports = [
       en: "gorilla",
       pl: "goryl",
       es: "gorila",
+      hr: "gorila",
     },
   },
   {
@@ -37,6 +40,7 @@ module.exports = [
       en: "cat",
       pl: "kot",
       es: "gato",
+      hr: "mačka",
     },
   },
   {
@@ -47,6 +51,7 @@ module.exports = [
       en: "tiger",
       pl: "tygrys",
       es: "tigre",
+      hr: "tigar",
     },
   },
   {
@@ -57,6 +62,7 @@ module.exports = [
       en: "horse",
       pl: "koń",
       es: "caballo",
+      hr: "konj",
     },
   },
   {
@@ -67,6 +73,7 @@ module.exports = [
       en: "leopard",
       pl: "leopard",
       es: "leopardo",
+      hr: "leopard",
     },
   },
   {
@@ -77,6 +84,7 @@ module.exports = [
       en: "dove",
       pl: "gołąb",
       es: "paloma",
+      hr: "golub",
     },
   },
   {
@@ -87,6 +95,7 @@ module.exports = [
       en: "sheep",
       pl: "owca",
       es: "oveja",
+      hr: "ovca",
     },
   },
   {
@@ -97,6 +106,7 @@ module.exports = [
       en: "cow",
       pl: "krowa",
       es: "vaca",
+      hr: "krava",
     },
   },
   {
@@ -107,6 +117,7 @@ module.exports = [
       en: "camel",
       pl: "wielbłąd",
       es: "camello",
+      hr: "deva",
     },
   },
   {
@@ -117,6 +128,7 @@ module.exports = [
       en: "snake",
       pl: "wąż",
       es: "serpiente",
+      hr: "zmija",
     },
   },
   {
@@ -127,6 +139,7 @@ module.exports = [
       en: "pig",
       pl: "świnia",
       es: "cerdo",
+      hr: "svinja",
     },
   },
   {
@@ -137,6 +150,7 @@ module.exports = [
       en: "turtle",
       pl: "zółw",
       es: "tortuga",
+      hr: "kornjača",
     },
   },
   {
@@ -147,6 +161,7 @@ module.exports = [
       en: "ox",
       pl: "wół",
       es: "buey",
+      hr: "vol",
     },
   },
   {
@@ -157,6 +172,7 @@ module.exports = [
       en: "rat",
       pl: "szczur",
       es: "rata",
+      hr: "štakor",
     },
   },
   {
@@ -167,6 +183,7 @@ module.exports = [
       en: "dolphin",
       pl: "delfin",
       es: "delfín",
+      hr: "dupin",
     },
   },
   {
@@ -177,6 +194,7 @@ module.exports = [
       en: "whale",
       pl: "wieloryb",
       es: "ballena",
+      hr: "kit",
     },
   },
   {
@@ -187,6 +205,7 @@ module.exports = [
       en: "owl",
       pl: "sowa",
       es: "búho",
+      hr: "sova",
     },
   },
   {
@@ -197,6 +216,7 @@ module.exports = [
       en: "bear",
       pl: "niedźwiedź",
       es: "oso",
+      hr: "medvjed",
     },
   },
   {
@@ -207,6 +227,7 @@ module.exports = [
       en: "elephant",
       pl: "słoń",
       es: "elefante",
+      hr: "slon",
     },
   },
   {
@@ -217,6 +238,7 @@ module.exports = [
       en: "goat",
       pl: "koza",
       es: "cabra",
+      hr: "koza",
     },
   },
   {
@@ -227,6 +249,7 @@ module.exports = [
       en: "ram",
       pl: "baran",
       es: "carnero",
+      hr: "ovan",
     },
   },
   {
@@ -237,6 +260,7 @@ module.exports = [
       en: "duck",
       pl: "kaczka",
       es: "pato",
+      hr: "patka",
     },
   },
   {
@@ -247,6 +271,7 @@ module.exports = [
       en: "chicken",
       pl: "kurczak",
       es: "pollo",
+      hr: "pile",
     },
   },
   {
@@ -257,6 +282,7 @@ module.exports = [
       en: "chipmunk",
       pl: "wiewiórka",
       es: "ardilla",
+      hr: "vjeverica",
     },
   },
   {
@@ -267,6 +293,7 @@ module.exports = [
       en: "rhinoceros",
       pl: "nosorożec",
       es: "rinoceronte",
+      hr: "nosorog",
     },
   },
   {
@@ -277,6 +304,7 @@ module.exports = [
       en: "mouse",
       pl: "mysz",
       es: "ratón",
+      hr: "miš",
     },
   },
   {
@@ -287,6 +315,7 @@ module.exports = [
       en: "poodle",
       pl: "pudel",
       es: "caniche",
+      hr: "pudl",
     },
   },
   {
@@ -297,6 +326,7 @@ module.exports = [
       en: "snail",
       pl: "ślimak",
       es: "caracol",
+      hr: "puž",
     },
   },
   {
@@ -307,6 +337,7 @@ module.exports = [
       en: "bat",
       pl: "nietoperz",
       es: "murciélago",
+      hr: "šišmiš",
     },
   },
   {
@@ -317,6 +348,7 @@ module.exports = [
       en: "turkey",
       pl: "indyk",
       es: "pavo",
+      hr: "puran",
     },
   },
   {
@@ -327,6 +359,7 @@ module.exports = [
       en: "water buffalo",
       pl: "wół domowy",
       es: "búfalo de agua",
+      hr: "vodeni bivol",
     },
   },
   {
@@ -337,6 +370,7 @@ module.exports = [
       en: "frog",
       pl: "żaba",
       es: "rana",
+      hr: "žaba",
     },
   },
   {
@@ -347,6 +381,7 @@ module.exports = [
       en: "eagle",
       pl: "orzeł",
       es: "águila",
+      hr: "orao",
     },
   },
   {
@@ -357,6 +392,7 @@ module.exports = [
       en: "crocodile",
       pl: "krokodyl",
       es: "cocodrilo",
+      hr: "krokodil",
     },
   },
   {
@@ -367,6 +403,7 @@ module.exports = [
       en: "octopus",
       pl: "ośmiornica",
       es: "pulpo",
+      hr: "hobotnica",
     },
   },
   {
@@ -377,6 +414,7 @@ module.exports = [
       en: "crab",
       pl: "krab",
       es: "cangrejo",
+      hr: "rak",
     },
   },
   {
@@ -387,6 +425,7 @@ module.exports = [
       en: "scorpion",
       pl: "skorpion",
       es: "escorpión",
+      hr: "škorpion",
     },
   },
   {
@@ -397,6 +436,7 @@ module.exports = [
       en: "ant",
       pl: "mrówka",
       es: "hormiga",
+      hr: "mrav",
     },
   },
   {
@@ -417,6 +457,7 @@ module.exports = [
       en: "butterfly",
       pl: "motyl",
       es: "mariposa",
+      hr: "leptir",
     },
   },
   {
@@ -427,6 +468,7 @@ module.exports = [
       en: "penguin",
       pl: "pingwin",
       es: "pingüino",
+      hr: "pingvin",
     },
   },
   {
@@ -437,6 +479,7 @@ module.exports = [
       en: "rabbit",
       pl: "królik",
       es: "conejo",
+      hr: "zeko",
     },
   },
   {
@@ -447,6 +490,7 @@ module.exports = [
       en: "fish",
       pl: "ryba",
       es: "pez",
+      hr: "riba",
     },
   },
   {
@@ -457,6 +501,7 @@ module.exports = [
       en: "shark",
       pl: "rekin",
       es: "tiburón",
+      hr: "morski pas",
     },
   },
   {
@@ -467,6 +512,7 @@ module.exports = [
       en: "grapes",
       pl: "winogrona",
       es: "uvas",
+      hr: "grožđe",
     },
   },
   {
@@ -477,6 +523,7 @@ module.exports = [
       en: "strawberry",
       pl: "truskawka",
       es: "fresa",
+      hr: "jagoda",
     },
   },
   {
@@ -487,6 +534,7 @@ module.exports = [
       en: "lemon",
       pl: "cytryna",
       es: "limón",
+      hr: "limun",
     },
   },
   {
@@ -497,6 +545,7 @@ module.exports = [
       en: "melon",
       pl: "melon",
       es: "melón",
+      hr: "dinja",
     },
   },
   {
@@ -507,6 +556,7 @@ module.exports = [
       en: "kiwi fruit",
       pl: "kiwi",
       es: "kiwi",
+      hr: "kivi",
     },
   },
   {
@@ -517,6 +567,7 @@ module.exports = [
       en: "banana",
       pl: "banan",
       es: "plátano / banana",
+      hr: "banana",
     },
   },
   {
@@ -527,6 +578,7 @@ module.exports = [
       en: "apple",
       pl: "jabłko",
       es: "manzana",
+      hr: "jabuka",
     },
   },
   {
@@ -537,6 +589,7 @@ module.exports = [
       en: "pineapple",
       pl: "ananas",
       es: "piña",
+      hr: "ananas",
     },
   },
   {
@@ -547,6 +600,7 @@ module.exports = [
       en: "pear",
       pl: "gruszka",
       es: "pera",
+      hr: "kruška",
     },
   },
   {
@@ -557,6 +611,7 @@ module.exports = [
       en: "peach",
       pl: "brzoskwinia",
       es: "melocotón",
+      hr: "breskva",
     },
   },
   {
@@ -567,6 +622,7 @@ module.exports = [
       en: "avocado",
       pl: "awokado",
       es: "aguacate",
+      hr: "avokado",
     },
   },
   {
@@ -577,6 +633,7 @@ module.exports = [
       en: "tangerine",
       pl: "mandarynka",
       es: "mandarina",
+      hr: "mandarina",
     },
   },
   {
@@ -587,6 +644,7 @@ module.exports = [
       en: "tomato",
       pl: "pomidor",
       es: "tomate",
+      hr: "rajčica",
     },
   },
   {
@@ -597,6 +655,7 @@ module.exports = [
       en: "watermelon",
       pl: "arbuz",
       es: "sandía",
+      hr: "lubenica",
     },
   },
   {
@@ -607,6 +666,7 @@ module.exports = [
       en: "cherries",
       pl: "czereśnie",
       es: "cerezas",
+      hr: "trešnja",
     },
   },
   {
@@ -617,6 +677,7 @@ module.exports = [
       en: "hot pepper",
       pl: "papryka chili",
       es: "guindilla",
+      hr: "čili paprika",
     },
   },
   {
@@ -627,6 +688,7 @@ module.exports = [
       en: "carrot",
       pl: "marchewka",
       es: "zanahoria",
+      hr: "mrkva",
     },
   },
   {
@@ -637,6 +699,7 @@ module.exports = [
       en: "eggplant",
       pl: "bakłażan",
       es: "berenjena",
+      hr: "patlidžan",
     },
   },
   {
@@ -647,6 +710,7 @@ module.exports = [
       en: "potato",
       pl: "ziemniak",
       es: "patata",
+      hr: "krumpir",
     },
   },
   {
@@ -657,6 +721,7 @@ module.exports = [
       en: "sweet potato",
       pl: "batat",
       es: "batata",
+      hr: "batat",
     },
   },
   {
@@ -667,6 +732,7 @@ module.exports = [
       en: "cucumber",
       pl: "ogórek",
       es: "pepino",
+      hr: "krastavac",
     },
   },
   {
@@ -677,6 +743,7 @@ module.exports = [
       en: "corn",
       pl: "kukurydza",
       es: "maíz",
+      hr: "kukuruz",
     },
   },
   {
@@ -687,6 +754,7 @@ module.exports = [
       en: "peanuts",
       pl: "orzechy",
       es: "cacahuetes",
+      hr: "kikiriki",
     },
   },
   {
@@ -697,6 +765,7 @@ module.exports = [
       en: "honey",
       pl: "miód",
       es: "miel",
+      hr: "med",
     },
   },
   {
@@ -707,6 +776,7 @@ module.exports = [
       en: "bread",
       pl: "chleb",
       es: "pan",
+      hr: "kruh",
     },
   },
   {
@@ -717,6 +787,7 @@ module.exports = [
       en: "cheese",
       pl: "ser",
       es: "queso",
+      hr: "sir",
     },
   },
   {
@@ -727,6 +798,7 @@ module.exports = [
       en: "egg",
       pl: "jajko",
       es: "huevo",
+      hr: "jaje",
     },
   },
   {
@@ -737,6 +809,7 @@ module.exports = [
       en: "rice",
       pl: "ryż",
       es: "arroz",
+      hr: "riža",
     },
   },
   {
@@ -747,6 +820,7 @@ module.exports = [
       en: "croissant",
       pl: "croissant",
       es: "croissant",
+      hr: "kroasan",
     },
   },
   {
@@ -757,6 +831,7 @@ module.exports = [
       en: "chocolate",
       pl: "czekolada",
       es: "chocolate",
+      hr: "čokolada",
     },
   },
   {
@@ -767,6 +842,7 @@ module.exports = [
       en: "french fries",
       pl: "frytki",
       es: "patatas fritas",
+      hr: "pomfrit",
     },
   },
   {
@@ -777,6 +853,7 @@ module.exports = [
       en: "cookie",
       pl: "ciastko",
       es: "galleta",
+      hr: "keksić",
     },
   },
   {
@@ -787,6 +864,7 @@ module.exports = [
       en: "candy",
       pl: "cukierek",
       es: "caramelo",
+      hr: "slatkiš",
     },
   },
   {
@@ -797,6 +875,7 @@ module.exports = [
       en: "snowboarding",
       pl: "snowboard",
       es: "snowboarding",
+      hr: "snowboard",
     },
   },
   {
@@ -807,6 +886,7 @@ module.exports = [
       en: "horse racing",
       pl: "jeździectwo",
       es: "carreras de caballo",
+      hr: "konjske utrke",
     },
   },
   {
@@ -817,6 +897,7 @@ module.exports = [
       en: "swimming",
       pl: "pływanie",
       es: "natación",
+      hr: "plivanje",
     },
   },
   {
@@ -827,6 +908,7 @@ module.exports = [
       en: "biking",
       pl: "kolarstwo",
       es: "ciclismo",
+      hr: "biciklizam",
     },
   },
   {
@@ -837,6 +919,7 @@ module.exports = [
       en: "skiing",
       pl: "narciarstwo",
       es: "esquí",
+      hr: "skijanje",
     },
   },
   {
@@ -847,6 +930,7 @@ module.exports = [
       en: "surfing",
       pl: "surfing",
       es: "surfeo",
+      hr: "surfanje",
     },
   },
   {
@@ -857,6 +941,7 @@ module.exports = [
       en: "golf",
       pl: "golf",
       es: "golf",
+      hr: "golf",
     },
   },
   {
@@ -867,6 +952,7 @@ module.exports = [
       en: "handball",
       pl: "piłka ręczna",
       es: "balonmano",
+      hr: "rukomet",
     },
   },
   {
@@ -877,6 +963,7 @@ module.exports = [
       en: "weightlifting",
       pl: "podnoszenie ciężarów",
       es: "halterofilia",
+      hr: "dizanje utega",
     },
   },
   {
@@ -887,6 +974,7 @@ module.exports = [
       en: "basketball",
       pl: "koszykówka",
       es: "baloncesto",
+      hr: "košarka",
     },
   },
   {
@@ -897,6 +985,7 @@ module.exports = [
       en: "footbal",
       pl: "futbol",
       es: "fútbol",
+      hr: "američki nogomet",
     },
   },
   {
@@ -907,6 +996,7 @@ module.exports = [
       en: "rugby",
       pl: "rugby",
       es: "rugby",
+      hr: "ragbi",
     },
   },
   {
@@ -917,6 +1007,7 @@ module.exports = [
       en: "soccer",
       pl: "piłka nożna",
       es: "fútbol",
+      hr: "nogomet",
     },
   },
   {
@@ -927,6 +1018,7 @@ module.exports = [
       en: "volleyball",
       pl: "siatkówka",
       es: "voleibol",
+      hr: "odbojka",
     },
   },
   {
@@ -937,6 +1029,7 @@ module.exports = [
       en: "badminton",
       pl: "badminton",
       es: "bádminton",
+      hr: "badminton",
     },
   },
   {
@@ -947,6 +1040,7 @@ module.exports = [
       en: "tennis",
       pl: "tenis",
       es: "tenis",
+      hr: "tenis",
     },
   },
   {
@@ -957,6 +1051,7 @@ module.exports = [
       en: "ping pong",
       pl: "tenis stołowy",
       es: "tenis de mesa",
+      hr: "stolni tenis",
     },
   },
   {
@@ -967,6 +1062,7 @@ module.exports = [
       en: "boxing",
       pl: "box",
       es: "boxeo",
+      hr: "boks",
     },
   },
   {
@@ -977,6 +1073,7 @@ module.exports = [
       en: "bowling",
       pl: "kręgle",
       es: "bolos",
+      hr: "kuglanje",
     },
   },
   {
@@ -987,6 +1084,7 @@ module.exports = [
       en: "car",
       pl: "samochód",
       es: "coche",
+      hr: "auto",
     },
   },
   {
@@ -997,6 +1095,7 @@ module.exports = [
       en: "bus",
       pl: "autobus",
       es: "autobús",
+      hr: "autobus",
     },
   },
   {
@@ -1007,6 +1106,7 @@ module.exports = [
       en: "train",
       pl: "pociąg",
       es: "tren",
+      hr: "vlak",
     },
   },
   {
@@ -1017,6 +1117,7 @@ module.exports = [
       en: "bike",
       pl: "rower",
       es: "bicicleta",
+      hr: "bicikl",
     },
   },
   {
@@ -1027,6 +1128,7 @@ module.exports = [
       en: "ship",
       pl: "statek",
       es: "barco",
+      hr: "brod",
     },
   },
   {
@@ -1037,6 +1139,7 @@ module.exports = [
       en: "boat",
       pl: "łódź",
       es: "barco de vela",
+      hr: "barka",
     },
   },
   {
@@ -1057,6 +1160,7 @@ module.exports = [
       en: "truck",
       pl: "ciężarówka",
       es: "camión",
+      hr: "kamion",
     },
   },
   {
@@ -1067,6 +1171,7 @@ module.exports = [
       en: "taxi",
       pl: "taksówka",
       es: "taxi",
+      hr: "taksi",
     },
   },
   {
@@ -1077,6 +1182,7 @@ module.exports = [
       en: "helicopter",
       pl: "helikopter",
       es: "helicóptero",
+      hr: "helikopter",
     },
   },
   {
@@ -1087,6 +1193,7 @@ module.exports = [
       en: "airplane",
       pl: "samolot",
       es: "avión",
+      hr: "avion",
     },
   },
   {
@@ -1097,6 +1204,7 @@ module.exports = [
       en: "ambulance",
       pl: "ambulans",
       es: "ambulancia",
+      hr: "hitna kola",
     },
   },
   {
@@ -1107,6 +1215,7 @@ module.exports = [
       en: "fire engine",
       pl: "wóz strażacki",
       es: "camión de bomberos",
+      hr: "vatrogasna kola",
     },
   },
   {
@@ -1117,6 +1226,7 @@ module.exports = [
       en: "sheet music",
       pl: "nuty",
       es: "partitura",
+      hr: "partitura",
     },
   },
   {
@@ -1127,6 +1237,7 @@ module.exports = [
       en: "microphone",
       pl: "mikrofon",
       es: "micrófono",
+      hr: "mikrofon",
     },
   },
   {
@@ -1137,6 +1248,7 @@ module.exports = [
       en: "headphone",
       pl: "słuchawki",
       es: "auriculares",
+      hr: "slušalice",
     },
   },
   {
@@ -1147,6 +1259,7 @@ module.exports = [
       en: "saxophone",
       pl: "saksofon",
       es: "saxofón",
+      hr: "saksofon",
     },
   },
   {
@@ -1157,6 +1270,7 @@ module.exports = [
       en: "guitar",
       pl: "gitara",
       es: "guitarra",
+      hr: "gitara",
     },
   },
   {
@@ -1167,6 +1281,7 @@ module.exports = [
       en: "piano",
       pl: "pianino",
       es: "piano",
+      hr: "klavir",
     },
   },
   {
@@ -1177,6 +1292,7 @@ module.exports = [
       en: "trumpet",
       pl: "trąbka",
       es: "trompeta",
+      hr: "truba",
     },
   },
   {
@@ -1187,6 +1303,7 @@ module.exports = [
       en: "violin",
       pl: "skrzypce",
       es: "violín",
+      hr: "violina",
     },
   },
   {
@@ -1197,6 +1314,7 @@ module.exports = [
       en: "drum",
       pl: "bęben",
       es: "tambor",
+      hr: "bubanj",
     },
   },
 ];
