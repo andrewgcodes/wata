@@ -6,10 +6,9 @@
       <v-container grid-list-xl>
         <v-layout wrap>
           <word
-            v-for="{ name, emoji, translations, category } in words"
+            v-for="{ name, emoji, translations } in words"
             :key="name"
             :name="name"
-            :category="category"
             :emoji="emoji"
             :translation="getTranslation(translations)"
             >
