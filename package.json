@@ -9,7 +9,8 @@
     "build": "nuxt build",
     "generate": "nuxt generate",
     "format": "prettier --write --trailing-comma=es5 {api,data,plugins,store,test,components,layouts,pages}/**/*.{js,vue} nuxt.config.js .eslintrc.js",
-    "test": "ava"
+    "test": "ava",
+    "precommit": "lint-staged"
   },
   "dependencies": {
     "@nuxtjs/component-cache": "^1.1.1",
@@ -34,9 +35,14 @@
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-promise": "^3.6.0",
+    "husky": "^0.14.3",
     "joi": "^13.1.2",
+    "lint-staged": "^7.0.0",
     "prettier": "^1.11.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2"
+  },
+  "lint-staged": {
+    "*.{js,vue}": ["prettier --trailing-comma=es5 --write"]
   }
 }
